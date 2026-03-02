@@ -1,7 +1,4 @@
 
-*{
-    box-sizing: border-box;
-}
 html, body{
     margin: 0;
     padding: 0;
@@ -16,3 +13,236 @@ a{
 p{
     margin: 0;
 }
+
+.container{
+    position: relative;
+    display: flex;
+    width: 1320px;
+    height: auto;
+   
+    
+
+}
+
+/*NAVBAR*/
+.navbar_frame{
+    width: 1920px;
+    height: 145px;
+    background-color:rgba(68, 50, 151, 1);
+    display: flex;
+    justify-content: center;
+}
+.navbar_frame .container{
+    
+    flex-direction: column;
+    padding-top: 20px 0px 14px ;
+    
+
+}
+.navbar_frame .navbar_top{
+    width: 1320px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+ .navbar_frame .nav_top_searchFrame{
+    width: 651px;
+    height: 50px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.navbar_frame .navbar_categories{
+    width: 166.56px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgba(214, 214, 214, 1);
+}
+.navbar_frame .navbar_categories select{
+    width: 115.75px;
+    height: 22px;
+
+color: rgba(4, 30, 66, 1);
+font-family: Jost;
+font-style: Regular;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+outline: none;
+}
+.navbar_frame .nav_top_search{
+    width: 387px;
+height: 22px;
+}
+.navbar_frame .nav_top_search input{
+color: rgba(98, 105, 116, 1);
+font-family: Jost;
+font-style: Regular;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+outline: none;
+
+}
+.navbar_frame .nav_top_search_icon{
+    width: 49.81px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 0px 6px 6px 0px;
+   background: rgba(245, 195, 75, 1)
+}
+.navbar_frame .nav_top_search_icon img{
+    width: 19.92px;
+   height: 20px;
+   color: rgba(68, 50, 151, 1);
+}
+.navbar_frame .nav_top_right_box{
+    width: 416.87px;
+    height: 50px;
+    display: flex;
+
+    
+}
+.navbar_frame .nav_right_box_item{
+    width: 140.4px;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.navbar_frame .right_box_icon{
+    width: 54.84px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    position: relative;
+}
+.navbar_frame .right_box_icon img{
+    width: 18.73px;
+    height: 15.8px;
+}
+.navbar_frame .right_box_info{
+ width: 69.1px;
+height: 43px;
+color: rgba(255, 255, 255, 1);
+font-family: Jost;
+font-style: Regular;
+font-size: 15px;
+font-weight: 300;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-left: 12px;
+}
+.navbar_frame .nav_right_box_item .order_total{
+   position: absolute;
+   top: 0;
+   right: 0;
+width: 15.92px;
+height: 15px;
+background: rgba(245, 195, 75, 1);
+border-radius: 50%;
+color: rgba(11, 30, 64, 1);
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Jost;
+font-style: Bold;
+font-size: 8px;
+font-weight: 700;
+line-height: 10px;
+letter-spacing: 0%;
+text-align: left;
+}
+.navbar_frame .nav_top_hr{
+    margin-top: 20px;
+    border: 1px solid;
+}
+.navbar_frame .nav_bottom{
+    width: 1320px;
+height: 30px;
+display: flex;
+align-items: center;
+
+    justify-content: space-between;
+
+}
+.navbar_frame .nav_bottom_categories{
+    width: 185px;
+height: 30px;
+display: flex;
+align-items: center;
+border-right: 1.5px solid #5747a2;
+
+
+}
+.navbar_frame .nav_bottom_categories span{
+   
+width: 133.44px;
+height: 28px;
+
+color: rgba(255, 255, 255, 1);
+font-family: Jost;
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 10px;
+}
+.navbar_frame .nav_bottom_items{
+    width: 620px;
+    height: 28px;
+display: flex;
+    align-items: center;
+    margin-left: 12px;
+    
+
+}
+.navbar_frame .nav_bottom_items a{
+    color: white;
+    margin-right: 10px;
+}
+.navbar_frame .nav_bottom_items .title{
+    color: rgba(245, 195, 75, 1)
+
+}
+.navbar_frame .sorting_items{
+    width: 462px;
+   height: 28px;
+   display: flex;
+   align-items: center;
+
+}
+.navbar_frame .sorting_items span{
+   
+color: rgba(255, 255, 255, 1);
+font-family: Jost;
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+
+margin-left: 10px;
+}
+/*NAVBAR END*/
