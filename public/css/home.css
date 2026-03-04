@@ -78,7 +78,7 @@ line-height: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
-background-color: #ffff;
+background-color:white;
   border-radius: 6px;
   font-family: Jost;
 font-style: normal;
@@ -145,7 +145,10 @@ font-weight: 500;
 line-height: 22px;
 
 }
-.header_frame .box_left .hover_border{
+.header_frame .box_left a:hover{
+border-bottom: 2px solid black;
+}
+.header_frame .box_left .hover_box{
     margin-top: 3px;
     width: 32px;
     height: 2px;
