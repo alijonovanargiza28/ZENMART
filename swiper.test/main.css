@@ -1,0 +1,15 @@
+.swiper {
+width: 90%;
+height: 350px;
+}
+
+.card{
+text-align:center;
+background:white;
+padding:20px;
+border-radius:10px;
+}
+
+.card img{
+width:150px;
+}

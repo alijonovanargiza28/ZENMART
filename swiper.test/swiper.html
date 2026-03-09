@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+</head>
+<body>
+    <h2>Top Selling Products</h2>
+
+<div class="swiper mySwiper">
+
+<div class="swiper-wrapper">
+
+<div class="swiper-slide card">
+<img src="../public/images/category/computer.png">
+<h3>Apple Watch</h3>
+<p>$32</p>
+</div>
+
+<div class="swiper-slide card">
+<img src="../public/images/category/game.png">
+<h3>iPhone 11</h3>
+<p>$399</p>
+</div>
+
+<div class="swiper-slide card">
+<img src="robot.png">
+<h3>Robot Vacuum</h3>
+<p>$199</p>
+</div>
+
+<div class="swiper-slide card">
+<img src="vacuum.png">
+<h3>Dyson V7</h3>
+<p>$299</p>
+</div>
+
+</div>
+
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+
+<div class="swiper-pagination"></div>
+
+</div>
+    <script src="https:cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script>
+
+var swiper = new Swiper(".mySwiper", {
+
+slidesPerView: 4,
+spaceBetween: 30,
+loop: true,
+
+navigation: {
+nextEl: ".swiper-button-next",
+prevEl: ".swiper-button-prev",
+},
+
+pagination: {
+el: ".swiper-pagination",
+clickable: true,
+},
+
+});
+</script>
+</script>
+</body>
+</html>
