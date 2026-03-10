@@ -1,5 +1,5 @@
 .home_page{
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
     display: flex;
     flex-direction: column;
 }
@@ -20,7 +20,7 @@ flex-direction: row;
 }
 .category_top span{
     color: rgba(4, 30, 66, 1);
-font-family: Jost;
+font-family: var(--font);
 font-style: normal;
 font-size: 28px;
 font-weight: 500;
@@ -29,7 +29,7 @@ line-height: 40px;
 .category_top a{
     margin-left: 30PX;
     color: rgba(4, 30, 66, 1);
-font-family: Jost;
+font-family: var(--font);
 font-style: normal;
 font-size: 15px;
 font-weight: 500;
@@ -141,7 +141,7 @@ box-shadow: 0px 5px 20px 0px rgba(0, 83, 246, 0.1);
 background: rgba(0, 83, 246, 1);
 
 color: rgba(255, 255, 255, 1);
-font-family: Jost;
+font-family: var(--font);
 font-style: Medium;
 font-size: 15px;
 font-weight: 500;
@@ -156,7 +156,7 @@ box-sizing: border-box;
 }
 .container .product_content_box .product_title{
     color: rgba(98, 105, 116, 1);
-font-family: Jost;
+font-family: var(--font);
 font-style: Regular;
 font-size: 13px;
 font-weight: 400;
@@ -170,7 +170,7 @@ text-transform: uppercase;
     height: 56px;
     overflow: hidden;
     color: rgba(4, 30, 66, 1);
-font-family: Jost;
+font-family: var(--font);
 font-style: Medium;
 font-size: 16px;
 font-weight: 500;
@@ -192,7 +192,7 @@ text-align: left;
 .container .review_box span{
     margin-left: 10px;
     color: rgba(98, 105, 116, 1);
-font-family: Jost;
+font-family: var(--font);
 font-style: Regular;
 font-size: 14px;
 font-weight: 400;
@@ -206,7 +206,7 @@ line-height: 22px;
 }
 .container .price_box strong{
 color: rgba(4, 30, 66, 1);
-font-family: Jost;
+font-family: var(--font);
 font-style: Medium;
 font-size: 18px;
 font-weight: 500;
@@ -217,7 +217,7 @@ text-align: left;
 .container .price_box span{
     margin-left: 10px;
 color: rgba(98, 105, 116, 1);
-font-family: Jost;
+font-family: var(--font);
 font-style: Regular;
 font-size: 14px;
 font-weight: 400;
@@ -268,7 +268,7 @@ flex-direction: column;
     border-radius: 6px;
 background: rgba(245, 195, 75, 1);
 color: rgba(4, 30, 66, 1);
-font-family: Jost;
+font-family: var(--font);
 font-style: normal;
 font-size: 13px;
 font-weight: 500;
@@ -280,7 +280,7 @@ line-height: 22px;
     width: 428px;
 
 color: rgba(255, 255, 255, 1);
-font-family: Jost;
+font-family: var(--font);
 font-style: normal;
 font-size: 60px;
 font-weight: 400;
@@ -291,7 +291,7 @@ line-height: 87px;
     margin-top: 10px;
 
 color: rgba(255, 255, 255, 1);
-font-family: Jost;
+font-family: var(--font);
 font-style: normal;
 font-size: 16px;
 font-weight: 400;
@@ -308,7 +308,7 @@ line-height: 28px;
     justify-content: center;
 background-color:white;
   border-radius: 6px;
-  font-family: Jost;
+font-family: var(--font);
 font-style: normal;
 font-size: 15px;
 font-weight: 500;
@@ -397,6 +397,7 @@ border-bottom: 2px solid black;
     height: auto;
     display: flex;
     justify-content: center;
+   
 }
 .service_frame .container{
     flex-direction: row;
