@@ -658,7 +658,7 @@
   border: none;
   outline: none;
 }
-/* Pagination button */
+
 .pagination_wrapper {
   height: 24px;
   display: flex;
@@ -695,7 +695,7 @@
 
   background-color: rgba(17, 33, 55, 1);
 }
-/* Cagetory head */
+
 .category_top {
   width: 100%;
   height: 40px;
@@ -815,7 +815,7 @@
   font-weight: 500;
 }
 
-/* Category Style */
+
 .shop_category_frame {
   margin-top: 90px;
 
@@ -969,17 +969,17 @@
   border: 1px solid rgba(234, 234, 234, 1);
 }
 
-/* Laptops Frame style */
+
 .laptops_frames {
-  margin-top: 65px;
-  width: 100%;
-  height: auto;
+   margin-top: 65px; 
+   width: 100%;
+  height: auto; 
 
   display: flex;
-  justify-content: center;
+   justify-content: center; 
 }
 .laptops_frames .container {
-  height: 100%;
+   height: 100%; 
   display: flex;
   flex-direction: column;
 }
